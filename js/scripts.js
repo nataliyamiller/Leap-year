@@ -12,7 +12,7 @@ $(document).ready(function() {
     var result = leapYear(year);
 
     $(".year").text(year);
-    if (result == false) {
+    if (!result) {
       $(".not").text("not");
     }
 
